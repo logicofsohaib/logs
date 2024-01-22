@@ -8,7 +8,8 @@ const port = 3000;
 
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb://localhost:27017/qasimdata', {
+mongoose.connect('mongodb+srv://sohaibafzal:M90nSfPxSrDMbOJ3@cluster0.2ufk0nv.mongodb.net/your-database-name'
+, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
